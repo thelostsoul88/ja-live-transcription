@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Japanese Live Transcription (ja-JP, Deepgram)</title>
+  </head>
+  <body>
+    <h1>Japanese Live Transcription ja-JP</h1>
+
+    <div id="status">Idle</div>
+
+    <div class="controls">
+      <button id="startBtn">Start</button>
+      <button id="pauseBtn" disabled>Pause</button>
+      <button id="resumeBtn" disabled>Resume</button>
+      <button id="stopBtn" disabled>Stop</button>
+    </div>
+
+    <div>
+      <div class="label">Final transcript:</div>
+      <div id="finalText" class="box"></div>
+    </div>
+
+    <div>
+      <div class="label">Interim transcript (live):</div>
+      <div id="interimText" class="box"></div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
