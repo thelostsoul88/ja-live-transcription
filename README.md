@@ -43,20 +43,6 @@ The solution is intentionally minimal (plain HTML/JS + Node) and focused on **sp
   - `ws` – WebSocket server for audio streaming
   - Deepgram streaming ASR API (`wss://api.deepgram.com/v1/listen`)
 
----
-
-## Project Structure
-
-ja-live-transcription/
-package.json
-server.js
-.env
-/public
-index.html
-index.js
-
----
-
 ## Setup & Run
 
 Clone the repository
